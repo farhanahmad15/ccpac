@@ -104,15 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
   updateActiveLink();
 });
 
-// Parallax effect removed to fix scroll issue
-// window.addEventListener("scroll", () => {
-//   const hero = document.querySelector(".hero");
-//   if (hero) {
-//     const scrollPosition = window.scrollY;
-//     hero.style.transform = `translateY(${scrollPosition * 0.5}px)`;
-//   }
-// });
-
 // Prevent default form submission behavior if forms are added
 document.addEventListener("submit", (e) => {
   if (e.target.tagName === "FORM") {
